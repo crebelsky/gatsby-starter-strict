@@ -1,4 +1,5 @@
 # gatsby-starter-strict-next
+
 [dependecies](https://david-dm.org/crebelsky/gatsby-starter-strict-next.svg)
 
 A Gatsby starter with a set of strict linting, auto-formatting rules and react 16+
@@ -14,6 +15,7 @@ Features:
 * Based on [gatsby-starter-strict](https://github.com/kripod/gatsby-starter-strict) that is based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
 
 coming soon:
+
 * testing with jest, enzyme
 * storybook
 

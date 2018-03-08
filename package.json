@@ -11,25 +11,38 @@
       "url": "http://opensource.org/licenses/MIT"
     }
   ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5.2.0"
+  },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "npx gatsby build",
+    "start": "npx gatsby develop",
+    "build:serve": "gatsby serve",
     "lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
-    "format": "prettier-eslint --write \"**/*.{js,jsx,json,css,scss,md}\"",
-    "test": ""
+    "format": "prettier-eslint  --config \"./.prettierrc\" --write \"src/**/*.{js,jsx,json,css,scss,md}\"",
+    "test": "jest --config ./jest.config.json --no-cache",
+    "test:cover": "npm run test -- --coverage"
   },
   "dependencies": {
     "gatsby": "1.9.231",
     "gatsby-link": "1.6.39",
     "gatsby-plugin-react-helmet": "2.0.7",
+    "gatsby-plugin-react-next": "1.0.11",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
     "react-helmet": "5.2.0"
   },
   "devDependencies": {
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
     "eslint": "4.16.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.6.1",
-    "prettier-eslint-cli": "4.7.0"
+    "jest": "22.4.2",
+    "prettier-eslint-cli": "4.7.1",
+    "react-test-renderer": "16.2.0"
   }
 }
