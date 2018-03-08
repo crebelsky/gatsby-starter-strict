@@ -1,29 +1,35 @@
 {
+  "name": "gatsby-starter-strict-next",
+  "description": "A Gatsby starter with a set of strict linting, auto-formatting rules and react 16+",
+  "version": "0.0.1",
   "private": true,
+  "author": "Christian Rebelsky <christian.rebelsky@gmail.com",
+  "repository": "https://github.com/crebelsky/gatsby-starter-strict-next",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
-    "lint:style": "stylelint \"src/**/*.scss\"",
-    "lint": "yarn lint:es && yarn lint:style",
-    "format": "prettier-eslint --write \"**/*.{js,jsx,json,css,scss,md}\""
+    "lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\"",
+    "format": "prettier-eslint --write \"**/*.{js,jsx,json,css,scss,md}\"",
+    "test": ""
   },
   "dependencies": {
-    "gatsby": "^1.9.175",
-    "gatsby-link": "^1.6.35",
-    "gatsby-plugin-react-helmet": "^2.0.4",
-    "react-helmet": "^5.2.0"
+    "gatsby": "1.9.231",
+    "gatsby-link": "1.6.39",
+    "gatsby-plugin-react-helmet": "2.0.7",
+    "react-helmet": "5.2.0"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1",
-    "prettier-eslint-cli": "^4.7.0",
-    "stylelint": "^8.4.0",
-    "stylelint-config-idiomatic-order": "^5.0.0",
-    "stylelint-config-recommended-scss": "^3.0.0",
-    "stylelint-scss": "^2.3.0"
+    "eslint": "4.16.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.6.1",
+    "prettier-eslint-cli": "4.7.0"
   }
 }

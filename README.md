@@ -1,20 +1,21 @@
-# gatsby-starter-strict
+# gatsby-starter-strict-next
+[dependecies](https://david-dm.org/crebelsky/gatsby-starter-strict-next.svg)
 
-A Gatsby starter with a set of strict linting and auto-formatting rules.
+A Gatsby starter with a set of strict linting, auto-formatting rules and react 16+
 
 Features:
 
+* React 16+
 * A set of strict linting rules and scripts
-  * `lint` runs every linter
-  * `lint:es` lints `js` and `jsx` files (based on the [Airbnb JavaScript Style Guide][])
-  * `lint:style` lints `scss` files (based on [stylelint-config-recommended-scss][] and [stylelint-config-idiomatic-order][])
+  * `lint` lints `js` and `jsx` files (based on the [Airbnb JavaScript Style Guide][])
 * Encourage automatic code formatting
   * `format` script
-* Prefer using [Yarn](https://yarnpkg.com) for package management
 * Use [EditorConfig](http://editorconfig.org) to maintain consistent coding styles between different editors and IDEs
-* Integration with [Visual Studio Code](https://code.visualstudio.com)
-  * Pre-configured auto-formatting on file save
-* Based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
+* Based on [gatsby-starter-strict](https://github.com/kripod/gatsby-starter-strict) that is based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
+
+coming soon:
+* testing with jest, enzyme
+* storybook
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
@@ -25,9 +26,5 @@ gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-strict
 ```
 
 [airbnb javascript style guide]: https://github.com/airbnb/javascript
-[stylelint-config-recommended-scss]: https://github.com/kristerkari/stylelint-config-recommended-scss
-[stylelint-config-idiomatic-order]: https://github.com/ream88/stylelint-config-idiomatic-order
 
 ## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kripod/gatsby-starter-strict)
