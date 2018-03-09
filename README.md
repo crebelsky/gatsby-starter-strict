@@ -7,6 +7,8 @@ A Gatsby starter with a set of strict linting, auto-formatting rules and react 1
 Features:
 
 * React 16+
+* unit and snapshot testing with jest, enzyme
+* css-in-js with [styled-components](https://github.com/styled-components/styled-components)
 * A set of strict linting rules and scripts
   * `lint` lints `js` and `jsx` files (based on the [Airbnb JavaScript Style Guide][])
 * Encourage automatic code formatting
@@ -16,7 +18,6 @@ Features:
 
 coming soon:
 
-* testing with jest, enzyme
 * storybook
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
