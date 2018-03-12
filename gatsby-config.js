@@ -7,4 +7,5 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
   ],
+  pathPrefix: '/gatsby-starter-strict-next',
 };
