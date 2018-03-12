@@ -2,9 +2,11 @@
 
 ![dependecies](https://david-dm.org/crebelsky/gatsby-starter-strict-next.svg)
 
-A Gatsby starter with a set of strict linting, auto-formatting rules and react 16+
+A Gatsby starter based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) with a set of strict linting, auto-formatting rules, testing and react 16+.
+### Demo
+[https://crebelsky.github.io/gatsby-starter-strict-next/][]
 
-Features:
+### Features:
 
 * React 16+
 * unit and snapshot testing with jest, enzyme
@@ -16,7 +18,7 @@ Features:
 * Use [EditorConfig](http://editorconfig.org) to maintain consistent coding styles between different editors and IDEs
 * Based on [gatsby-starter-strict](https://github.com/kripod/gatsby-starter-strict) that is based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
 
-coming soon:
+### upcoming features:
 
 * storybook
 
@@ -25,9 +27,7 @@ For an overview of the project structure please refer to the [Gatsby documentati
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 ```
-gatsby new gatsby-example-site https://github.com/kripod/gatsby-starter-strict
+gatsby new gatsby-example-site https://github.com/crebelsky/gatsby-starter-strict-next
 ```
 
 [airbnb javascript style guide]: https://github.com/airbnb/javascript
-
-## Deploy
