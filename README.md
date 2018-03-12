@@ -4,7 +4,7 @@
 
 A Gatsby starter based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) with a set of strict linting, auto-formatting rules, testing and react 16+.
 ### Demo
-[https://crebelsky.github.io/gatsby-starter-strict-next/][]
+[https://crebelsky.github.io/gatsby-starter-strict-next/][gh-pages]
 
 ### Features:
 
@@ -31,3 +31,4 @@ gatsby new gatsby-example-site https://github.com/crebelsky/gatsby-starter-stric
 ```
 
 [airbnb javascript style guide]: https://github.com/airbnb/javascript
+[gh-pages]: https://crebelsky.github.io/gatsby-starter-strict-next/
