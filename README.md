@@ -1,5 +1,7 @@
 # gatsby-starter-strict-next
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/crebelsky/gatsby-starter-strict-next.svg)](https://greenkeeper.io/)
+
 [![npm dependecies](https://david-dm.org/crebelsky/gatsby-starter-strict-next.svg)](https://david-dm.org/crebelsky/gatsby-starter-strict-next)
 
 A Gatsby starter based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) with a set of strict linting, auto-formatting rules, testing and react 16+.
