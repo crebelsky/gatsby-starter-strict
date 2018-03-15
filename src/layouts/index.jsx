@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 
-import Header from '../components/Header/Header';
+import Header from '../components/Header';
 import '../style/global';
 
 const Content = styled.div`
