@@ -1,6 +1,6 @@
 {
   "transform": {
-    "^.+\\.jsx?$": "babel-jest"
+    "^.+\\.jsx?$": "<rootDir>/__tests__/utils/jest.transform.js"
   },
   "testMatch": ["<rootDir>/src/**/*.(spec|test).js?(x)"],
   "testPathIgnorePatterns": ["/node_modules/", "/.cache/", "/public", "/__tests__/"],
