@@ -33,12 +33,13 @@
     "gatsby-plugin-react-helmet": "2.0.7",
     "gatsby-plugin-react-next": "1.0.11",
     "gatsby-plugin-styled-components": "2.0.9",
+    "grid-styled": "3.2.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-helmet": "5.2.0",
     "react-router-dom": "4.2.2",
     "styled-components": "3.2.1",
-    "styled-reset": "1.1.2"
+    "styled-normalize": "4.0.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.1",

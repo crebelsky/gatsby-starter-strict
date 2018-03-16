@@ -1,33 +1,23 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import styled from 'styled-components';
+import { Flex, Box } from 'grid-styled';
 
-const Wrapper = styled.div`
-  background-color: black;
-  marginbottom: 1.45rem;
-`;
-
-const Nav = styled.div`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
-`;
+import { Wrapper, Nav, NavLink } from './style';
 
 const Header = () => (
   <Wrapper>
-    <Nav>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </Nav>
+    <Flex>
+      <Box w={[1]} mx={[1, 2, 3, 4]} px={[1, 2, 3, 4]}>
+        <Nav>
+          <h1>
+            <NavLink
+              to="/"
+            >
+              Gatsby
+            </NavLink>
+          </h1>
+        </Nav>
+      </Box>
+    </Flex>
   </Wrapper>
 );
 
