@@ -1,33 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
+import { Flex, Box } from 'grid-styled';
+import theme from '../style/theme';
 
 import Header from '../components/Header';
 import '../style/global';
 
-const Content = styled.div`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
-`;
-
-const IndexLayout = ({ children }) => (
-  <div>
-    <Helmet
-      title="Gatsby Strict Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header />
-    <Content>{children()}</Content>
-  </div>
+const TemplateWrapper = ({ children }) => (
+  <ThemeProvider theme={theme}>
+    <div>
+      <Helmet
+        title="Gatsby Strict Starter"
+        meta={[
+          { name: 'description', content: 'Sample' },
+          { name: 'keywords', content: 'sample, something' },
+        ]}
+      />
+      <Header />
+      <Flex>
+        <Box w={[1]} m={[1, 2, 3, 4]} p={[1, 2, 3, 4]}>
+          {children()}
+        </Box>
+      </Flex>
+    </div>
+  </ThemeProvider>
 );
 
-IndexLayout.propTypes = {
-  children: PropTypes.func.isRequired,
+TemplateWrapper.propTypes = {
+  children: PropTypes.func,
 };
 
-export default IndexLayout;
+TemplateWrapper.defaultProps = {
+  children: () => {},
+};
+
+export default TemplateWrapper;
